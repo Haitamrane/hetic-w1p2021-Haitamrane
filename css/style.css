@@ -1,0 +1,31 @@
+body {
+    background-image: url("photo.jpg");
+    background-size: 400px ;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+h1 {
+    color:wheat;
+}
+
+ img.displayed {
+    width:200px;
+    height:100px;
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.menu,.titre {
+    width:200px;
+    float: top;
+    
+}
+
+
+#titre1 {
+
+    background;
+}
