@@ -32,12 +32,3 @@ body {
 color:green;
 
 }
-
-p {
-  line-height: 40px;
-  text-align: center;
-  margin-left: 500px;
-  margin-right: 500px;
-  margin-top: auto;
-  font-size: 20px;
-}
