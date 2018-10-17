@@ -6,32 +6,45 @@ body {
     background-position: top;
 }
 
-.menu,.titre {
-    width:200px;
-    float: top;
+ .logo {
+   width: 200px;
+   display: block;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
 }
 
+nav .menu li {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-decoration: none;
 
-.imagelogo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:180px;
-    height:30px;
+  border: 1px solid #000;
+  background-color: beige;
 
 }
 
-#menu {
+a {
+  text-decoration: none;
+  color: darkred;
+  
+}
 
-color:green;
-
+a:hover {
+  text-decoration: underline;
+  color: green;
 }
 
 p {
   line-height: 40px;
   text-align: center;
-  margin-left: 500px;
-  margin-right: 500px;
-  margin-top: auto;
+  display: flex;
+  margin-left: 30%;
+  margin-right: 30%;
   font-size: 20px;
 }
+
+
