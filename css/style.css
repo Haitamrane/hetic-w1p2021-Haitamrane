@@ -1,6 +1,6 @@
 body {
     background-image: url(fumer.png);
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-color: gainsboro;
     background-repeat: no-repeat; 
     background-position: top;
@@ -9,7 +9,6 @@ body {
  .logo {
    width: 200px;
    display: block;
-   text-align: center;
    margin-left: auto;
    margin-right: auto;
 }
@@ -21,16 +20,17 @@ nav .menu li {
   margin-top: 1%;
   margin-bottom: 1%;
   text-decoration: none;
-
   border: 1px solid #000;
   background-color: beige;
+}
 
+.menu {
+  text-align: center;
 }
 
 a {
   text-decoration: none;
   color: darkred;
-  
 }
 
 a:hover {
@@ -46,5 +46,4 @@ p {
   margin-right: 30%;
   font-size: 20px;
 }
-
 
