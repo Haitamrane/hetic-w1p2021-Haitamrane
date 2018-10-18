@@ -21,7 +21,11 @@ nav .menu li {
   margin-bottom: 1%;
   text-decoration: none;
   border: 1px solid #000;
-  background-color: beige;
+  background-color: brown;
+}
+
+nav .menu li:hover {
+  background-color: green;
 }
 
 .menu {
@@ -30,12 +34,12 @@ nav .menu li {
 
 a {
   text-decoration: none;
-  color: darkred;
+  color: black;
 }
 
 a:hover {
   text-decoration: underline;
-  color: green;
+  color: blue;
 }
 
 p {
