@@ -6,11 +6,9 @@ body {
     background-position: top;
 }
 
- .logo {
-   width: 200px;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+#logo {
+  width: 200px;
+  
 }
 
 nav .menu li {
@@ -19,35 +17,77 @@ nav .menu li {
   margin-right: 2%;
   margin-top: 1%;
   margin-bottom: 1%;
-  text-decoration: none;
-  border: 1px solid #000;
-  background-color: brown;
-}
-
-nav .menu li:hover {
-  background-color: green;
 }
 
 .menu {
-  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: blue;
+  text-decoration: none;
+  color: gray;
 }
 
 p {
   line-height: 40px;
   text-align: center;
   display: flex;
+  margin-top: 5%;
   margin-left: 30%;
   margin-right: 30%;
   font-size: 20px;
 }
 
+.poumon {
+  float: left;
+  width: 400px;
+  border: black solid 2px;
+  margin-top: 28%;
+}
+
+.dent {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  width: 390px;
+  border: black solid 2px;
+}
+
+header {
+  background-color: black;
+}
+
+.container {
+  max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+footer {
+background-color: black;
+font-size: 2rem;
+}
+
+footer p {
+  color: white;
+}
