@@ -7,13 +7,15 @@ body {
 }
 
 #logo {
-  width: 200px;
-  
+  width: 200px;  
+  position: absolute;
+  left: 5%;
+  top: 30%;
 }
 
 nav .menu li {
   display: inline-block;
-  margin-left: 2%;
+  margin-left: 20%;
   margin-right: 2%;
   margin-top: 1%;
   margin-bottom: 1%;
@@ -21,8 +23,7 @@ nav .menu li {
 
 .menu {
   display: inline-flex;
-  justify-content: center;
-
+  text-align: center;
 }
 
 a {
@@ -35,59 +36,62 @@ a:hover {
   color: gray;
 }
 
+header {
+  background-color: black;
+  padding: 15px;
+  z-index: 2;
+}
+
+.container {
+  display: inline-flex;
+  justify-content: center;
+  max-width: 1200px;
+  width: 95%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+}
+
 p {
   line-height: 40px;
   text-align: center;
   display: flex;
-  margin-top: 5%;
+  margin-top: 7%;
   margin-left: 30%;
   margin-right: 30%;
   font-size: 20px;
 }
 
 .poumon {
-  float: left;
-  width: 400px;
-  border: black solid 2px;
-  margin-top: 28%;
-}
-
-.dent {
+  display: flex;
   position: absolute;
   top: 50%;
-  right: 0px;
+  left: 15px;
   width: 390px;
   border: black solid 2px;
 }
 
-header {
-  background-color: black;
-}
-
-.container {
-  max-width: 1200px;
-    width: 95%;
-    margin: 0 auto;
-
-}
-
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.sticky {
-  position: fixed;
-  top: 0px;
-  width: 100%;
+.dent {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  width: 390px;
+  border: black solid 2px;
 }
 
 footer {
-background-color: black;
-font-size: 2rem;
+  background-color: black;
+  text-align: center;
 }
 
 footer p {
   color: white;
+  font-size: 17px;
+
 }
+
